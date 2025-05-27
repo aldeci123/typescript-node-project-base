@@ -1,0 +1,22 @@
+{
+  "name": "001-preparacao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc-watch --onSuccess \"node ./lib/index.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.8",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.21",
+    "tsc-watch": "^6.3.1",
+    "typescript": "^5.8.3"
+  }
+}
